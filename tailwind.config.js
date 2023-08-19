@@ -21,11 +21,13 @@ export default {
 
     },
     fontFamily: {
+      
+      'Inter':['Intern'],
       'sans': ['Roboto', 'sans-serif'],
       'serif': ['Merriweather', 'serif'],
-      'Inter': ['Inter', 'sans-serif'],
+      
 
   },
   plugins: [],
 }
-
+  }}
