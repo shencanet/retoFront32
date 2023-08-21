@@ -8,10 +8,6 @@ function App() {
     <>
 
     <Header/>
-<<<<<<< HEAD
-=======
- 
->>>>>>> 397e2cb (Add: tailwind font)
 
     </>
   )
