@@ -18,13 +18,26 @@ export default {
         "Very-Dark-Gray": "#212121",
         "Black": "#000000",
         "White": "#FFFFFF",
+<<<<<<< HEAD
+=======
+        "Very-Pale-Blue": "#F3F4F6",
+        "Very-Dark-Blue": "#1E2139",
+        "Dark-Grayish-Blue": "#252945",
+        "Red": "#F46262",
+
+>>>>>>> 397e2cb (Add: tailwind font)
 
     },
     fontFamily: {
       
+<<<<<<< HEAD
       'Inter':['Intern'],
       'sans': ['Roboto', 'sans-serif'],
       'serif': ['Merriweather', 'serif'],
+=======
+      'Inter':['Intern Variable'],
+     
+>>>>>>> 397e2cb (Add: tailwind font)
       
 
   },
