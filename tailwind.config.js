@@ -16,7 +16,7 @@ export default {
         "Gray": "#9E9E9E",
         "Dark-Gray": "#616161",
         "Very-Dark-Gray": "#212121",
-        "Black": "#000000",
+        "black": "#000000",
         "White": "#FFFFFF",
 
     },
