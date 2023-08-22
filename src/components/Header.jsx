@@ -8,7 +8,7 @@ export const Header = () => {
         <hr className="bg-black mb-[19px]" />
         <div className="flex justify-between">
             <p className="text-Dark-Grayish-Blue font-bold">Dark Mode</p>
-            <label htmlFor="darkMode" className="cursor-pointer text-red-400 font-bold">Etiqueta</label>
+            <label htmlFor="" className="cursor-pointer text-red-400 font-bold">Etiqueta</label>
             <input type="checkbox" name="darkMode" id="darkMode"/>
         </div>
     </header>
