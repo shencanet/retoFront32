@@ -18,11 +18,13 @@ export default {
         "Very-Dark-Gray": "#212121",
         "black": "#000000",
         "White": "#FFFFFF",
+        "Toggle": "nsl(230, 22%, 74%)",
+        "Light-Grayish-Blue": "#ECEFF1",
 
     },
     fontFamily: {
       
-      'Inter':['Intern'],
+      'Inter':['Inter'],
       'sans': ['Roboto', 'sans-serif'],
       'serif': ['Merriweather', 'serif'],
       
