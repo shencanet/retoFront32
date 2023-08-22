@@ -8,8 +8,11 @@ export const Header = () => {
         <hr className="bg-black mb-[19px]" />
         <div className="flex justify-between">
             <p className="text-Dark-Grayish-Blue font-bold">Dark Mode</p>
-            <label htmlFor="" className="cursor-pointer text-red-400 font-bold">Etiqueta</label>
-            <input type="checkbox" name="darkMode" id="darkMode"/>
+
+          <label htmlFor="darkMode" className="border border-red-600 w-[40px] h-[20px]  rounded-full cursor-pointer">
+            <input type="checkbox" id="darkMode" className="sr-omly" />
+            <div className="w-[18px] h-[18px] bg-blue-600"></div>
+          </label>
         </div>
     </header>
   )
