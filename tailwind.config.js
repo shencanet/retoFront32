@@ -22,7 +22,12 @@ export default {
         "Light-Grayish-Blue": "#ECEFF1",
 
     },
-    fontFamily: {
+    backgroundImage:{
+      "Toggle": "linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
+
+    },
+   
+      fontFamily: {
       
       'Inter':['Inter'],
       'sans': ['Roboto', 'sans-serif'],
