@@ -23,7 +23,9 @@ export default {
 
     },
     backgroundImage:{
-      "Toggle": "linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
+      "Toggle-Gradient": "linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
+      "Instagram": "linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%))",
+
 
     },
    
