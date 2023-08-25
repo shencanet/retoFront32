@@ -9,9 +9,10 @@ export const Header = () => {
         <div className="flex justify-between">
             <p className="text-Dark-Grayish-Blue font-bold">Dark Mode</p>
 
-          <label htmlFor="darkMode" className="border bg-Toggle  peer-checked:bg-Toggle-Gradient w-[40px] h-[21px]  rounded-full cursor-pointer 
+          <label htmlFor="darkMode" className="border bg-Toggle   w-[40px] h-[21px]  rounded-full cursor-pointer 
           p-[1px]">
             <input type="checkbox" id="darkMode" className="peer sr-only" />
+            <div className=" bg-red-600 w-[20px] h-[20px] peer-checked:bg-Toggle-Gradient"></div>
             <div className="w-[18px] h-[18px] bg-Light-Grayish-Blue rounded-full peer-checked:translate-x-[18px] transition-all"></div>
           </label>
         </div>
