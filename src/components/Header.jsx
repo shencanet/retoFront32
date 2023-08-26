@@ -25,7 +25,7 @@ export const Header = () => {
 
             <div className=" w-full  h-full peer-checked:bg-Toggle-Gradient absolute top-0 left-0 "></div>
 
-            <div className="w-[18px] h-[18px] bg-Light-Grayish-Blue rounded-full peer-checked:translate-x-[18px] transition-all"></div>
+          <div className="w-[18px] h-[18px] bg-Light-Grayish-Blue rounded-full peer-checked:translate-x-[18px] transition-all"></div>
           </label>
         </div>
     </header>
