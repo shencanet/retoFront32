@@ -9,12 +9,14 @@ export default {
     extend: {
       colors: {
         "Lima-Green": "#8BC34A",
+        "Red": "#F44336",
         "Bright-Red": "#E53935",
         "Facebook-Blue": "#3B5998",
         "Twitter-Blue": "#1DA1F2",
         "Youtube-Red": "#FF0000",
         "Toggled-Gray": "#BDBDBD",
         "Very-Light-Gray": "#F5F5F5",
+        "Very-Pale-Blue": "#E3F2FD",
         "Light-Gray": "#E0E0E0",
         "Gray": "#9E9E9E",
         "Dark-Gray": "#616161",
@@ -23,6 +25,7 @@ export default {
         "White": "#FFFFFF",
         "Toggle": "hsl(230, 22%, 74%)", // Corrected color format
         "Light-Grayish-Blue": "#ECEFF1",
+        "Dark-Blue": "#2C3E50",
       },
       backgroundImage: {
         "Toggle-Gradient": "linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
