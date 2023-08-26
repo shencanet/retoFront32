@@ -21,7 +21,7 @@ export const Header = () => {
         <p className="text-Dark-Grayish-Blue font-bold mb-6">Total Followers: 23,004</p>
         <hr className="bg-black mb-[19px]" />
         <div className="flex justify-between">
-            <p className="text-Dark-Grayish-Blue font-bold">Dark Mode</p>
+            <p className="text-Dark-Grayish-Blue dark:text-Desaturated-Blue font-bold">Dark Mode</p>
 
           <label htmlFor="darkMode" className="border  relative bg-Gray   w-[40px] h-[21px]  rounded-full cursor-pointer overflow-hidden
           p-[1px]">

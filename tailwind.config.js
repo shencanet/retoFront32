@@ -26,6 +26,9 @@ export default {
         "Toggle": "hsl(230, 22%, 74%)", // Corrected color format
         "Light-Grayish-Blue": "#ECEFF1",
         "Dark-Blue": "#2C3E50",
+        "Desaturated-Blue": "#9DAEC2",
+        "Dark-Grayish-Blue": "#8798AD",
+        
       },
       backgroundImage: {
         "Toggle-Gradient": "linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
