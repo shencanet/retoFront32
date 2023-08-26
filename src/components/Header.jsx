@@ -4,11 +4,11 @@ export const Header = () => {
  
   const [darkMode, setDarkMode] = useState(false);
   const handleClick = () => {
-    setDarkMode(true);
+    setDarkMode(!darkMode);
   }
   
   useEffect(() => {
-    console.log("dark mode");
+    console.log(darkMode);
   }, [darkMode])
   
   return (
