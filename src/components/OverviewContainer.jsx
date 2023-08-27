@@ -1,8 +1,19 @@
-import React from 'react'
+import React from "react";
+import data from "../data/data.json";
+//console.log(data.overview)
 
 export const OverviewContainer = () => {
   return (
-    <div>OverviewContainer</div>
-    
+    <section>
+      {
+      data.overview.map(object => ( 
+        
+      <div>Tarjeta</div>
+
+      )
+        
+      )
+      }
+    </section>
   )
 }
