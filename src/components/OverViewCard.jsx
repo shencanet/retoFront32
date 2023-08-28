@@ -7,8 +7,9 @@ import youtubeLogo from '../assets/images/icon-youtube.svg'
 const networkslogos = {
   Facebook : facebookLogo,
   Twitter : twitterLogo,
-  Instagram : instagramLogo,
-  Youtube : youtubeLogo
+  YouTube : youtubeLogo,
+  Instagram : instagramLogo
+  
 
 }
 
@@ -19,7 +20,7 @@ const networkslogos = {
 export const OverViewCard = ({user, audienceType, audience, network}) => {
   return (
     <article className='bg-Light-Grayish-Blue w-[326px] h-[216px] mb-4 rounded-[5px]  mx-auto'>
-        <img src={networkslogos[network]} alt={`logo ${network}`} className='w-[20px] h-[20px] mt-4 ml-4'/>
+        <img src={networkslogos[network]} alt={`logo ${network}`} className='w-[20px] h-[20px]'/>
         <p>{user}</p>
         <p>{audience}</p>
         <p>{audienceType}</p>
