@@ -30,11 +30,11 @@ export const OverViewCard = ({ user, audienceType, audience, network }) => {
           alt={`logo ${network}`}
           className="w-[20px] h-[20px]"
         />
-        <p>{user}</p>
+        <p className=" text-x text-Dark-Grayish-Blue font-bold">{user}</p>
       </div>
 
-      <p>{audience}</p>
-      <p>{audienceType}</p>
+      <p className="text-center">{audience}</p>
+      <p className="">{audienceType}</p>
     </article>
   );
 };
