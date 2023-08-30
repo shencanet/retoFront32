@@ -36,7 +36,7 @@ export const OverViewCard = ({ user, audienceType, audience, network, isUp, toda
       </div>
 
       <p className="text-[56px] font-bold text-Very-Dark-Blue mb-5">{audience}</p>
-      <p className="uppercase tracking-[5px] text-Dark-Grayish-Blue text-x font-bold">{audienceType}</p>
+      <p className="uppercase tracking-[5px] text-Dark-Grayish-Blue text-x font-bold mb-1">{audienceType}</p>
       <div className="flex item-center place-content-center gap-1">
         <img src={isUp ? iconup : icondown} alt="icon up" className="w-[10px] h-[10px]" />
         <p className={`text-xs font-bold ${isUp ? 'text-Lima-Green' : 'text-red-400' }`}>  {today} </p>
