@@ -22,7 +22,7 @@ const networkscolors =
 
 }
 
-export const OverViewCard = ({ user, audienceType, audience, network }) => {
+export const OverViewCard = ({ user, audienceType, audience, network, isUp }) => {
   return (
     <article className="bg-Light-Grayish-Blue w-[326px] h-[216px] mb-4 rounded-[5px]  mx-auto overflow-hidden text-center">
       <div className={`${networkscolors[network]} h-[4px] mb-8`}></div>
@@ -37,6 +37,12 @@ export const OverViewCard = ({ user, audienceType, audience, network }) => {
 
       <p className="text-[56px] font-bold text-Very-Dark-Blue mb-5">{audience}</p>
       <p className="uppercase tracking-[5px] text-Dark-Grayish-Blue text-x font-bold">{audienceType}</p>
+      <div className="flex item-center place-content-center gap-1">
+        <img src={isUp} alt="icon up" className="w-[10px] h-[10px]" />
+        <p>{}</p>
+
+      </div>
+
     </article>
   );
 };
