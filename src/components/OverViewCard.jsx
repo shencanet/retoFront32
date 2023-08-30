@@ -3,6 +3,8 @@ import facebookLogo from "../assets/images/icon-facebook.svg";
 import twitterLogo from "../assets/images/icon-twitter.svg";
 import instagramLogo from "../assets/images/icon-instagram.svg";
 import youtubeLogo from "../assets/images/icon-youtube.svg";
+import iconup from "../assets/images/icon-up.svg";
+import icondown from "../assets/images/icon-down.svg";
 
 const networkslogos = {
   Facebook: facebookLogo,
