@@ -29,6 +29,7 @@ export default {
         "Desaturated-Blue": "#9DAEC2",
         "Dark-Grayish-Blue": "#8798AD",
         "Very-Dark-Blue": "#1E2A47",
+        "Dark-Desaturated-Blue": "#4D5E7E",
         
       },
       backgroundImage: {

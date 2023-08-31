@@ -5,7 +5,7 @@ import { OverViewCard } from "./OverViewCard";
 
 export const OverviewContainer = () => {
   return (
-    <section className="border-2 border-red-600 absolute top-[191px] left-0 right-0 mx-auto">
+    <section className=" w-full absolute top-[191px] left-0 right-0 mx-auto">
       {
         
       data.overview.map(object =>  
