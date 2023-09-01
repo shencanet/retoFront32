@@ -1,7 +1,7 @@
 import React from "react";
 import data from "../data/data.json";
 import { OverViewCard } from "./OverViewCard";
-import { OverViewTodayCard } from "./OverViewTodayCard";
+import { OverViewTodayCard } from "./OverViewCard";
 //console.log(data.overview)
 
 export const OverviewContainer = () => {
