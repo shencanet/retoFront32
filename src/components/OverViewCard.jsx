@@ -46,3 +46,12 @@ export const OverViewCard = ({ user, audienceType, audience, network, isUp, toda
     </article>
   );
 };
+
+
+
+export const OverViewTodayCard = () => {
+  return (
+    <div>OverViewTodayCard</div>
+  )
+}
+
