@@ -39,8 +39,13 @@ const convertNumber = (Number) => {
   )
 }
 
+console.log(data['overview-today'])
 export const OverViewToday = () => {
   return (
-    <div>OverViewTodayContainer</div>
+    <div>{data['overview-today'].map(object =>
+      <div key={object.id}>Segunda Tarjeta </div>
+      
+      
+      )}</div>
   )
 }
