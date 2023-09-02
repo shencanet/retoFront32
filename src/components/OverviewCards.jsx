@@ -56,3 +56,4 @@ export const OverviewTodayCard = ({network, statsType, stats, porcentage, isUp})
     </article>
   )
 }
+
